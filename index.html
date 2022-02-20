@@ -79,7 +79,158 @@
         </div>
       </div>
     </header>
-    <div class="page__main"></div>
-    <footer class="page__footer"></footer>
+    <main class="page__content">
+      <section class="menu">
+        <p class="menu__title">Menu</p>
+        <p class="menu__subtitle">
+          We brew coffee from locally roasted, Fairtrade certified beans and use
+          biodegradable cups. All teas from our collection are $2/cup.
+        </p>
+        <div class="menu__cards">
+          <article class="card">
+            <!-- <div class="card__content"> -->
+            <h4 class="card__title">Filter</h4>
+            <ul class="card__list">
+              <li class="card__list-item card__list-divider">
+                Regular (12 oz) $1
+              </li>
+              <li class="card__list-item card__list-divider">
+                Large (16 oz) $1.25
+              </li>
+              <li class="card__list-item card__list-divider">
+                XL (20 oz) $1.5
+              </li>
+              <li class="card__list-item card__list-divider">
+                Party-size (24 oz, decaf) $1.75
+              </li>
+              <li class="card__list-item card__list-divider">
+                Iced Coffee (16 oz) $1.25
+              </li>
+            </ul>
+            <!-- </div> -->
+          </article>
+
+          <article class="card">
+            <!-- <div class="card__content"> -->
+            <h4 class="card__title">Espresso</h4>
+            <ul class="card__list">
+              <li class="card__list-item card__list-divider">
+                Macchiato $2.25
+              </li>
+              <li class="card__list-item card__list-divider">Cortado $2.5</li>
+              <li class="card__list-item card__list-divider">Mocha $3</li>
+              <li class="card__list-item card__list-divider">
+                Sunrise in the Bay Area (decaf) $10
+              </li>
+            </ul>
+            <!-- </div> -->
+          </article>
+
+          <article class="card">
+            <!-- <div class="card__content"> -->
+            <h4 class="card__title">Baked Goods</h4>
+            <ul class="card__list">
+              <li class="card__list-item card__list-divider">
+                Almond Croissant $2
+              </li>
+              <li class="card__list-item card__list-divider">
+                Banana Bread $1.75
+              </li>
+              <li class="card__list-item card__list-divider">
+                Key Lime Pie $3
+              </li>
+              <li class="card__list-item card__list-divider">
+                Blue Velvet Cake $3.75
+              </li>
+              <li class="card__list-item card__list-divider">Web Cookie $2</li>
+              <li class="card__list-item card__list-divider">
+                Fresh Bug’uette $0.25
+              </li>
+            </ul>
+            <!-- </div> -->
+          </article>
+        </div>
+      </section>
+      <section class="recipes">
+        <p class="recipes__title">Recipes</p>
+        <p class="recipes__subtitle">
+          Check out some recipes we've collected for your home-brewing
+          convenience:
+        </p>
+        <div class="recipes__video">
+          <iframe
+            class="recipes__iframe"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/j6VlT_jUVPc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+          <iframe
+            class="recipes__iframe"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/st571DYYTR8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+          <span class="recipes__video recipes__video-caption"
+            >Aeropress recipe 5 min French press recipe ~15 min</span
+          >
+        </div>
+      </section>
+      <section class="reservation">
+        <p class="reservation__title">Book a table</p>
+        <form class="reservation__form">
+          <fieldset class="form__fieldset">
+            <label for="name" class="form__label">Name</label>
+            <input
+              type="text"
+              class="form__input"
+              name="name"
+              placeholder="Name Surename"
+              style="color: #838383"
+            />
+            <label for="Number_of_guests" class="form__label"
+              >Number of guests</label
+            >
+            <input
+              type="number"
+              class="form__input"
+              name="Number_of_guests"
+              placeholder="1-8"
+              style="color: #838383"
+            />
+            <label for="date" class="form__label">Date & time</label>
+            <input
+              type="date"
+              class="form__input"
+              name="date"
+              placeholder="dd.mm.yyyy"
+              style="color: #838383"
+            />
+            <label for="email" class="form__label">Your email</label>
+            <input
+              type="email"
+              class="form__input"
+              name="email"
+              placeholder="email@email.com"
+              style="color: #838383"
+            />
+          </fieldset>
+          <button type="submit" class="form__button">Book a table</button><br />
+          <checkbox class="form__checkbox"
+            >I agree with the terms of use</checkbox
+          >
+        </form>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>
