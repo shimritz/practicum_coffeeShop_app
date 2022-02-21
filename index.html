@@ -45,7 +45,7 @@
         <img
           class="logo"
           src="./images/logo_coffee_shop.svg"
-          alt="logo practicum"
+          alt="logo coffee shop"
         />
         <div class="nav__links">
           <a href="#" class="nav__link">Menu</a>
@@ -187,7 +187,7 @@
       </section>
       <section class="reservation">
         <p class="reservation__title">Book a table</p>
-        <form class="reservation__form">
+        <form class="form reservation__form">
           <fieldset class="form__fieldset">
             <label for="name" class="form__label">Name</label>
             <input
@@ -223,14 +223,53 @@
               placeholder="email@email.com"
               style="color: #838383"
             />
+            <button type="submit" class="form__button" name="send">
+              Book a table
+            </button>
           </fieldset>
-          <button type="submit" class="form__button">Book a table</button><br />
-          <checkbox class="form__checkbox"
-            >I agree with the terms of use</checkbox
+
+          <input
+            type="checkbox"
+            class="form__checkbox"
+            name="terms_agreement"
+          />
+          <label for="terms_agreement" class="form__checkbox"
+            >I agree with the terms of use</label
           >
         </form>
       </section>
+      <section class="about">
+        <p class="about__title">About the <br />coffee shop</p>
+        <div class="about__content">
+          <p class="about__paragraph">
+            Our coffee shop is located in the Practicum Library's hall. It
+            features 6 tables and free WiFi.<br />
+            <span class="about__paragraph about__paragraph_linespacing"
+              >Our main mission is keeping guests cozy and energized.
+            </span>
+            Besides that, we try to reduce our environmental impact — so we
+            don't sell single-use cups. But you can buy one of our reusable
+            cups!
+          </p>
+        </div>
+        <div class="about__circle"></div>
+        <div class="about__circle about__circle_animation_blurred"></div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__content">
+        <img
+          class="footer__logo"
+          src="./images/logo_practicum.svg"
+          alt="logo practicum"
+        />
+        <div class="footer__social-heading"></div>
+        <ul class="footer__list">
+          <li class="footer__social-icon footer__social-link">Facebook</li>
+          <li class="footer__social-icon footer__social-link">Instagram</li>
+        </ul>
+      </div>
+      <div class="footer__copyright">&copy; 2022 Shimrit Breef Ziskand</div>
+    </footer>
   </body>
 </html>

@@ -4,6 +4,8 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
+  border: none;
 }
 
 .form__label {
@@ -22,6 +24,9 @@
   color: #838383;
   max-width: 385px;
   margin-bottom: 32px;
+  /* padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; */
 }
 
 .form__button {
@@ -36,6 +41,7 @@
   transition: opacity;
   transition-duration: 0.7s;
   transition-timing-function: linear;
+  height: 40px;
 }
 
 .form__button:hover {
@@ -47,4 +53,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  width: 80px;
+  margin-bottom: 120px;
+  gap: 12px;
+}
+
+input[type="checkbox"] {
+  border-radius: 2px;
+  height: 8px;
+  width: 8px;
 }

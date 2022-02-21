@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 .reservation__title {
@@ -17,4 +18,6 @@
 }
 
 .reservation__form {
+  margin: 0 auto;
+  width: 385px;
 }

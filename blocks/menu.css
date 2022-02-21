@@ -30,5 +30,7 @@
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 100px;
+  /* row-gap: 100px; 
+
+   justify-content: center; */
 }
