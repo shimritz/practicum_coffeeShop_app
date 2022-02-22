@@ -1,8 +1,10 @@
 .card {
-  flex-basis: 500px;
+  /* flex-basis: 500px; */
   /* max-width: 600px; */
-  flex-grow: 1;
-  margin-left: 100px; /*because dont need to touch the margins of a block
+  /* flex-grow: 1; */
+  max-width: 650px;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 
 .card__title {
@@ -15,9 +17,8 @@
 
 .card__list {
   list-style: none;
-  display: flex;
-  align-items: baseline;
-  /* justify-content: space-between;  */
+  min-width: 550px;
+  max-width: 550px;
 }
 
 .card__list-item {
@@ -25,9 +26,13 @@
   font-size: 16px;
   line-height: 20px;
   border: none;
-  /* float: inline-start; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__list-divider {
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
+  flex-grow: 1;
+  height: 1px;
+  background-color: #fff;
 }

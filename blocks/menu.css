@@ -6,6 +6,7 @@
   background-size: cover;
   text-align: center;
   margin-bottom: 100px;
+  overflow: auto;
 }
 
 .menu__title {
@@ -25,12 +26,15 @@
   line-height: 30px;
   max-width: 780px;
   margin-bottom: 100px;
+  text-align: center;
+  margin: 24px auto 100px;
 }
 
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
-  /* row-gap: 100px; 
-
-   justify-content: center; */
+  row-gap: 100px;
+  column-gap: 100px;
+  justify-content: center;
+  margin-bottom: 100px;
 }
