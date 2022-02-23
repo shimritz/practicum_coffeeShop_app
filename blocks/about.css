@@ -31,6 +31,10 @@
   margin-right: 80px; /* wasnt mentioned in the brief*/
 }
 
+.about__span_line-break {
+  display: block;
+}
+
 .about__content {
   margin-top: 100px;
   margin-right: 80px;
@@ -48,6 +52,7 @@
 
 .about__paragraph_linespacing {
   line-height: 5;
+  display: block;
 }
 
 .about__circle {

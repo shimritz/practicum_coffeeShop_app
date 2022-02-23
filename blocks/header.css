@@ -38,6 +38,10 @@
   margin-left: 80px;
 }
 
+.header__span_line-break {
+  display: block;
+}
+
 .header__image {
   max-width: 520px;
   height: 500px;
