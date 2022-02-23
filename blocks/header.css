@@ -38,8 +38,9 @@
   margin-left: 80px;
 }
 
-.header__span_line-break {
+.header__span-linebreak {
   display: block;
+  margin-left: 80px;
 }
 
 .header__image {
@@ -61,7 +62,7 @@
   list-style-type: none;
 }
 
-.header__paragraph__list {
+.header__list {
   list-style: none;
   list-style-type: none;
   padding: 0;
