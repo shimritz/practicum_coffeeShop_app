@@ -1,10 +1,5 @@
 .card {
-  /* flex-basis: 500px; */
-  /* max-width: 600px; */
-  /* flex-grow: 1; */
   max-width: 650px;
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 .card__title {

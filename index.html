@@ -81,7 +81,7 @@
     </header>
     <main class="page__content">
       <section id="menu" class="menu">
-        <p class="menu__title">Menu</p>
+        <h2 class="menu__title">Menu</h2>
         <p class="menu__subtitle">
           We brew coffee from locally roasted, Fairtrade certified beans and use
           biodegradable cups. All teas from our collection are $2/cup.
@@ -182,7 +182,7 @@
         </div>
       </section>
       <section id="recipes" class="recipes">
-        <p class="recipes__title">Recipes</p>
+        <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing
           convenience:
@@ -193,7 +193,6 @@
               class="recipes__iframe"
               src="https://www.youtube.com/embed/j6VlT_jUVPc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
@@ -217,20 +216,20 @@
         </div>
       </section>
       <section id="reservation" class="reservation">
-        <p class="reservation__title">Book a table</p>
+        <h2 class="reservation__title">Book a table</h2>
         <form class="form reservation__form">
           <fieldset class="form__fieldset">
-            <label for="name" class="form__label">Name</label>
+            <label for="name" class="form__label">Name *</label>
             <input
               type="text"
               class="form__input"
               required
-              name="name"
+              id="name"
               placeholder="Name Surename"
               style="color: #838383"
             />
             <label for="Number_of_guests" class="form__label"
-              >Number of guests</label
+              >Number of guests *</label
             >
             <input
               type="number"
@@ -238,25 +237,18 @@
               required
               min="1"
               max="8"
-              name="Number_of_guests"
+              id="Number_of_guests"
               placeholder="1-8"
               style="color: #838383"
             />
-            <label for="date" class="form__label">Date & time</label>
-            <input
-              type="date"
-              class="form__input"
-              required
-              name="date"
-              placeholder="dd.mm.yyyy"
-              style="color: #838383"
-            />
-            <label for="email" class="form__label">Your email</label>
+            <label for="date" class="form__label">Date & time *</label>
+            <input type="date" class="form__input" required id="date" />
+            <label for="email" class="form__label">Your email *</label>
             <input
               type="email"
               class="form__input"
               required
-              name="email"
+              id="email"
               placeholder="email@email.com"
               style="color: #838383"
             />
@@ -265,19 +257,19 @@
             </button>
           </fieldset>
 
-          <input
-            type="checkbox"
-            class="form__checkbox"
-            required
-            name="terms_agreement"
-          />
-          <label for="terms_agreement" class="form__checkbox"
-            >I agree with the terms of use</label
-          >
+          <label for="terms_agreement" class="form__checkbox_label">
+            <input
+              type="checkbox"
+              class="form__checkbox"
+              required
+              id="terms_agreement"
+            />
+            <span>I agree with the terms of use</span>
+          </label>
         </form>
       </section>
       <section id="about" class="about">
-        <p class="about__title">About the <br />coffee shop</p>
+        <h2 class="about__title">About the <br />coffee shop</h2>
         <div class="about__content">
           <p class="about__paragraph">
             Our coffee shop is located in the Practicum Library's hall. It
