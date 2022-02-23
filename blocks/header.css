@@ -26,6 +26,7 @@
   line-height: 72px;
   color: #2f80ed;
   margin: 0;
+  display: block;
 }
 
 .header_description {
