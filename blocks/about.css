@@ -33,6 +33,8 @@
 
 .about__span-linebreak {
   display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .about__content {
@@ -48,6 +50,8 @@
   margin-top: 119px;
   width: 680px;
   margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .about__paragraph_linespacing {
