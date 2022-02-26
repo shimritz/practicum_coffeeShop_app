@@ -12,13 +12,26 @@
   height: 202px;
 }
 
+.nav__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .nav__link {
   text-decoration: none;
   color: black;
   transition: color;
   transition-timing-function: linear;
   transition-duration: 0.8s;
-  margin-left: 20px;
+  /* margin-left: 20px; */ /*used flex and a gap instead so theres no need for the margin set */
+}
+
+.nav__link:first-of-type {
+  margin-left: 0;
 }
 
 .nav__link:hover {

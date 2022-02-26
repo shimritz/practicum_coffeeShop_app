@@ -15,7 +15,7 @@
   line-height: 72px;
   margin-left: 80px;
   margin-top: 0;
-  margin-right: none;
+  margin-right: 0;
   margin-bottom: 28px;
 }
 
@@ -67,7 +67,16 @@
   list-style-type: none;
   padding: 0;
   margin-left: 0;
+  margin-bottom: 40px; /*according to the pic in the brief*/
   margin-top: 65px;
   display: flex;
   flex-direction: column;
+}
+
+.header__paragraph-address {
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
+  margin-top: 85px;
+  z-index: 1;
 }
