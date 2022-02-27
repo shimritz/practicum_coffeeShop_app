@@ -60,6 +60,10 @@
   color: #c1c1c1;
 }
 
+footer.footer__social-icon {
+  margin-right: 10px;
+}
+
 .footer__copyright {
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;

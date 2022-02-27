@@ -31,6 +31,10 @@
   margin-bottom: 32px;
 }
 
+input::placeholder {
+  color: #838383;
+}
+
 .form__button {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
@@ -46,6 +50,8 @@
   transition-timing-function: linear;
   height: 40px;
   padding: 0;
+  border: none;
+  color: white;
 }
 
 .form__button:hover {
