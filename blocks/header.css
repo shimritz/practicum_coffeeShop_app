@@ -9,9 +9,6 @@
 }
 
 .header__title {
-  /* position: absolute;
-  left: 80px;
-  top: 235px; */
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
@@ -20,7 +17,8 @@
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 28px;
-  /* z-index: 1; */
+  position: relative;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -31,8 +29,8 @@
   color: #2f80ed;
   margin: 0;
   display: block;
-  /* position: absolute;
-  left: 80px; */
+  position: relative;
+  z-index: 2;
 }
 
 .header_description {
@@ -42,10 +40,8 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 0 80px;
-  /* position: absolute;
-  left: 80px;
-  top: 260px; */
-  /* display: inline; */
+  position: relative;
+  z-index: 2;
 }
 
 .header__span-linebreak {
@@ -59,7 +55,7 @@
   position: absolute;
   right: 5px;
   top: 124px;
-  /* z-index: 0; */
+  z-index: 1;
 }
 
 .header__footer {
