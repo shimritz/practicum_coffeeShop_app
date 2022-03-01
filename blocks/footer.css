@@ -54,7 +54,6 @@
   transition-timing-function: linear;
   transition-duration: 0.5s;
   text-decoration: none;
-  /* margin-left: 20px; */
 }
 .footer__social-link:hover {
   color: #c1c1c1;

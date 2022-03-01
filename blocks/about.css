@@ -29,6 +29,7 @@
   margin-top: 100px;
   margin-left: 80px;
   margin-right: 80px; /* wasnt mentioned in the brief*/
+  margin-bottom: 0;
 }
 
 .about__span-linebreak {

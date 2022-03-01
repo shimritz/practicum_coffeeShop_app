@@ -33,7 +33,7 @@
   z-index: 2;
 }
 
-.header_description {
+.header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -46,7 +46,6 @@
 
 .header__span-linebreak {
   display: block;
-  margin-left: 80px;
 }
 
 .header__image {
